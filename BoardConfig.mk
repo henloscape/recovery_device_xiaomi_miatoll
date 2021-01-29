@@ -166,18 +166,3 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 
-# SHRP 
-SHRP_DEVICE_CODE := miatoll 
-SHRP_PATH := device/xiaomi/miatoll 
-SHRP_MAINTAINER := ceb08 
-SHRP_REC_TYPE := SAR 
-SHRP_DEVICE_TYPE := A_Only 
-SHRP_REC := /dev/block/bootdevice/by-name/recovery
-SHRP_EDL_MODE := 1 
-SHRP_INTERNAL := /sdcard
-SHRP_FLASH := 1
-SHRP_STATUSBAR_RIGHT_PADDING := 48
-SHRP_STATUSBAR_LEFT_PADDING := 48
-SHRP_DARK := true
-SHRP_EXPRESS := true
-

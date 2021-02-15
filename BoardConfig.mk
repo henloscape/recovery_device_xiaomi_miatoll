@@ -166,23 +166,20 @@ TARGET_USES_MKE2FS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_NO_SCREEN_BLANK := true
 
-# Path of your SHRP Tree
-SHRP_PATH := device/xiaomi/miatoll
-# Maintainer name *
-SHRP_MAINTAINER := henloboi (Jamie Ho) 
-# Device codename *
-SHRP_DEVICE_CODE := miatoll
-# Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
-SHRP_REC_TYPE := SAR
-# Recovery Type (It can be A/B or A_only) [Only for About Section] *
-SHRP_DEVICE_TYPE := A_Only
-# Notch
-SHRP_NOTCH := true
-# EDL
-SHRP_EDL_MODE := 1
-SHRP_EXTERNAL := /storage
-SHRP_INTERNAL := /sdcard1
-SHRP_OTG := /usb-otg
+# SHRP 
+SHRP_DEVICE_CODE := miatoll 
+SHRP_PATH := device/xiaomi/miatoll 
+SHRP_MAINTAINER := ceb08 
+SHRP_REC_TYPE := SAR 
+SHRP_DEVICE_TYPE := A_Only 
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_EDL_MODE := 1 
+SHRP_INTERNAL := /sdcard
 SHRP_FLASH := 1
-# Path
-SHRP_REC := /dev/block/bootdevice/by-name/recovery 
+SHRP_STATUSBAR_RIGHT_PADDING := 48
+SHRP_STATUSBAR_LEFT_PADDING := 48
+SHRP_DARK := true
+SHRP_EXPRESS := true
+SHRP_EXTERNAL := /sdcard1
+SHRP_OTG := /usb-otg
+SHRP_NOTCH := true

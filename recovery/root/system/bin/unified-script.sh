@@ -1,6 +1,7 @@
 #!/system/bin/sh
 # This script is needed to automatically set device props.
 
+rm /data/system/storage.xml
 
 load_curtana()
 {

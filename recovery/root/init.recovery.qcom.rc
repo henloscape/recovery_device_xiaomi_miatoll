@@ -32,6 +32,7 @@ on fs
     chown system system /sys/bus/i2c/drivers/aw8624_haptic/1-005a/osc_save
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
+    rm -rf /data/system/storage.xml
 
 on init
     start vibrator-service
